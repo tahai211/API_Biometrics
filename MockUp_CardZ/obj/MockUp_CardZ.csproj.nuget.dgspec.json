@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\This PC\\Documents\\MockUp_CardZ\\MockUp_CardZ\\MockUp_CardZ.csproj": {}
+    "D:\\DA\\BE\\MockUp_CardZ-20240714T092802Z-001\\API_Biometrics\\MockUp_CardZ\\MockUp_CardZ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\This PC\\Documents\\MockUp_CardZ\\MockUp_CardZ\\MockUp_CardZ.csproj": {
+    "D:\\DA\\BE\\MockUp_CardZ-20240714T092802Z-001\\API_Biometrics\\MockUp_CardZ\\MockUp_CardZ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\This PC\\Documents\\MockUp_CardZ\\MockUp_CardZ\\MockUp_CardZ.csproj",
+        "projectUniqueName": "D:\\DA\\BE\\MockUp_CardZ-20240714T092802Z-001\\API_Biometrics\\MockUp_CardZ\\MockUp_CardZ.csproj",
         "projectName": "MockUp_CardZ",
-        "projectPath": "C:\\Users\\This PC\\Documents\\MockUp_CardZ\\MockUp_CardZ\\MockUp_CardZ.csproj",
-        "packagesPath": "C:\\Users\\This PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\This PC\\Documents\\MockUp_CardZ\\MockUp_CardZ\\obj\\",
+        "projectPath": "D:\\DA\\BE\\MockUp_CardZ-20240714T092802Z-001\\API_Biometrics\\MockUp_CardZ\\MockUp_CardZ.csproj",
+        "packagesPath": "C:\\Users\\hai\\.nuget\\packages\\",
+        "outputPath": "D:\\DA\\BE\\MockUp_CardZ-20240714T092802Z-001\\API_Biometrics\\MockUp_CardZ\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\This PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\hai\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -65,6 +66,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -73,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

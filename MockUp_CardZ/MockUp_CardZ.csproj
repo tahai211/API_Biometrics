@@ -13,4 +13,12 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DTO\NewFolder\" />
+    <Folder Include="logs\" />
+    <Folder Include="Infra\Helps\" />
+    <Folder Include="Infra\Entities\" />
+    <Folder Include="Infra\Migrations\" />
+  </ItemGroup>
+
 </Project>
